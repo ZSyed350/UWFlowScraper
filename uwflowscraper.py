@@ -72,14 +72,14 @@ if __name__ == "__main__":
 		row = {
 			"Code": course["code"].upper(),
 			"Name": course["name"],
-			"Antireqs": course["antireqs"],
-			"Prereqs": course["prereqs"],
 			"Liked": course["rating"]["liked"] if course["rating"] else 'N/A',
 			"Easy": course["rating"]["easy"] if course["rating"] else 'N/A',
 			"Useful": course["rating"]["useful"] if course["rating"] else 'N/A',
-			"Offered F": terms["F"],
-			"Offered W": terms["W"],
-			"Offered S": terms["S"]
+			"F": terms["F"],
+			"W": terms["W"],
+			"S": terms["S"],
+			"Antireqs": course["antireqs"],
+			"Prereqs": course["prereqs"]
 		}
 		
 		course_data.append(row)
