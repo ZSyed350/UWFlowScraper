@@ -1,0 +1,225 @@
+{
+    "data": {
+        "course": [
+            {
+                "id": 4664,
+                "code": "mte380",
+                "name": "Mechatronics Engineering Design Workshop",
+                "description": "In this course, students study the design process, including needs analysis, problem definition; design criteria and critical parameter identification, generation of alternative solutions; conceptual design, detailed design, optimization; and implementation. Most of the term is devoted to a significant design project in which student groups work independently and competitively, applying the design process to a project goal set by the faculty coordinator. The design project typically includes construction of an electro-mechanical prototype, and part of the course grade may depend on the performance of the prototype in a competitive test. In exceptional circumstances, the requirement for a prototype may be replaced by a computer simulation, or may be waived. [Offered: F,W]",
+                "profs_teaching": [],
+                "__typename": "course",
+                "sections": [
+                    {
+                        "id": 600291,
+                        "enrollment_capacity": 1,
+                        "enrollment_total": 1,
+                        "class_number": 9704,
+                        "section_name": "LEC 002",
+                        "term_id": 1249,
+                        "updated_at": "2025-03-24T14:32:34.279976+00:00",
+                        "meetings": [],
+                        "exams": [],
+                        "__typename": "course_section"
+                    },
+                    {
+                        "id": 591333,
+                        "enrollment_capacity": 119,
+                        "enrollment_total": 105,
+                        "class_number": 5213,
+                        "section_name": "LEC 001",
+                        "term_id": 1249,
+                        "updated_at": "2025-03-24T14:32:34.279991+00:00",
+                        "meetings": [
+                            {
+                                "days": [
+                                    "W"
+                                ],
+                                "start_date": "2024-09-04",
+                                "end_date": "2024-12-03",
+                                "start_seconds": 30600,
+                                "end_seconds": 33600,
+                                "location": null,
+                                "prof": null,
+                                "is_closed": false,
+                                "is_cancelled": false,
+                                "is_tba": false,
+                                "__typename": "section_meeting"
+                            }
+                        ],
+                        "exams": [],
+                        "__typename": "course_section"
+                    },
+                    {
+                        "id": 591334,
+                        "enrollment_capacity": 119,
+                        "enrollment_total": 105,
+                        "class_number": 5251,
+                        "section_name": "PRJ 101",
+                        "term_id": 1249,
+                        "updated_at": "2025-03-24T14:32:34.280011+00:00",
+                        "meetings": [
+                            {
+                                "days": [
+                                    "W"
+                                ],
+                                "start_date": "2024-09-04",
+                                "end_date": "2024-12-03",
+                                "start_seconds": 34200,
+                                "end_seconds": 40800,
+                                "location": null,
+                                "prof": null,
+                                "is_closed": false,
+                                "is_cancelled": false,
+                                "is_tba": false,
+                                "__typename": "section_meeting"
+                            }
+                        ],
+                        "exams": [],
+                        "__typename": "course_section"
+                    },
+                    {
+                        "id": 596101,
+                        "enrollment_capacity": 105,
+                        "enrollment_total": 77,
+                        "class_number": 4905,
+                        "section_name": "LEC 001",
+                        "term_id": 1251,
+                        "updated_at": "2025-03-24T14:32:34.280028+00:00",
+                        "meetings": [
+                            {
+                                "days": [
+                                    "F"
+                                ],
+                                "start_date": "2025-01-06",
+                                "end_date": "2025-04-04",
+                                "start_seconds": 48600,
+                                "end_seconds": 51600,
+                                "location": null,
+                                "prof": null,
+                                "is_closed": false,
+                                "is_cancelled": false,
+                                "is_tba": false,
+                                "__typename": "section_meeting"
+                            }
+                        ],
+                        "exams": [],
+                        "__typename": "course_section"
+                    },
+                    {
+                        "id": 596102,
+                        "enrollment_capacity": 105,
+                        "enrollment_total": 77,
+                        "class_number": 4906,
+                        "section_name": "PRJ 101",
+                        "term_id": 1251,
+                        "updated_at": "2025-03-24T14:32:34.280048+00:00",
+                        "meetings": [
+                            {
+                                "days": [
+                                    "F"
+                                ],
+                                "start_date": "2025-01-06",
+                                "end_date": "2025-04-04",
+                                "start_seconds": 52200,
+                                "end_seconds": 58800,
+                                "location": null,
+                                "prof": null,
+                                "is_closed": false,
+                                "is_cancelled": false,
+                                "is_tba": false,
+                                "__typename": "section_meeting"
+                            }
+                        ],
+                        "exams": [],
+                        "__typename": "course_section"
+                    }
+                ],
+                "antireqs": "ME380",
+                "prereqs": "Level at least 3B Mechatronics Engineering.",
+                "coreqs": null,
+                "postrequisites": [
+                    {
+                        "postrequisite": {
+                            "id": 4669,
+                            "code": "mte481",
+                            "name": "Mechatronics Engineering Design Project",
+                            "__typename": "course"
+                        },
+                        "__typename": "course_postrequisite"
+                    },
+                    {
+                        "postrequisite": {
+                            "id": 4670,
+                            "code": "mte482",
+                            "name": "Mechatronics Engineering Project",
+                            "__typename": "course"
+                        },
+                        "__typename": "course_postrequisite"
+                    }
+                ],
+                "rating": {
+                    "liked": 0.50746268656716417910,
+                    "easy": 0.31122448979591837500,
+                    "useful": 0.57653061224489795000,
+                    "filled_count": 67,
+                    "comment_count": 6,
+                    "__typename": "aggregate_course_rating"
+                },
+                "course_useful_buckets": [
+                    {
+                        "value": 0,
+                        "count": 20,
+                        "__typename": "aggregate_course_useful_buckets"
+                    },
+                    {
+                        "value": 1,
+                        "count": 1,
+                        "__typename": "aggregate_course_useful_buckets"
+                    },
+                    {
+                        "value": 4,
+                        "count": 28,
+                        "__typename": "aggregate_course_useful_buckets"
+                    },
+                    {
+                        "value": null,
+                        "count": 20,
+                        "__typename": "aggregate_course_useful_buckets"
+                    }
+                ],
+                "course_easy_buckets": [
+                    {
+                        "value": 0,
+                        "count": 32,
+                        "__typename": "aggregate_course_easy_buckets"
+                    },
+                    {
+                        "value": 1,
+                        "count": 1,
+                        "__typename": "aggregate_course_easy_buckets"
+                    },
+                    {
+                        "value": 2,
+                        "count": 1,
+                        "__typename": "aggregate_course_easy_buckets"
+                    },
+                    {
+                        "value": 3,
+                        "count": 2,
+                        "__typename": "aggregate_course_easy_buckets"
+                    },
+                    {
+                        "value": 4,
+                        "count": 13,
+                        "__typename": "aggregate_course_easy_buckets"
+                    },
+                    {
+                        "value": null,
+                        "count": 20,
+                        "__typename": "aggregate_course_easy_buckets"
+                    }
+                ]
+            }
+        ]
+    }
+}
